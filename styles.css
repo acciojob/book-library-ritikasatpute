@@ -1,1 +1,58 @@
 /*  your css code here. If applicable */
+*{
+	
+	margin:0px;
+	padding:0px;
+	background-color:#ffffff;
+}
+h1{
+	color:black;
+	text-align:center;
+     padding:10px;
+	background-color:#f8f8f8;
+}
+.book-library{
+	
+	display:flex;
+	flex-direction:column;
+    justify-content:center;
+	justify-content:space-evenly;
+	margin:50px;
+
+	background-color:
+	border:10px solid black;
+    border-shadow:0px 8px 12px rgba(,0,0,0.5); 
+    border-radius:10px;
+	
+}
+.book{
+	background-color:#f8f8f8;
+	
+}
+.book img{
+	background-color:#f8f8f8;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+h3{
+	text-transform:uppercase;
+	background-color:#f8f8f8;
+	
+}
+.author{
+	color:#777777;
+	background-color:#f8f8f8;
+	
+}
+.buy{
+	background-color:#2ecc71;
+	text-align:center;
+	color:white;
+	padding:10px;
+	border-radius:3px;
+	margin-bottom:20px;
+	
+}
